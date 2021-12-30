@@ -1,0 +1,12 @@
+[programs.devnet]
+soldappsprogram = "BQ4nBpT2Jxf5g4vVEdRVNYULg5JBxCkKTRcKH71Xnkgo"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/monishkumar/.config/solana/id.json"
+
+[scripts]
+test = "node tests/soldappsprogram.js"
